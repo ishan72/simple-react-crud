@@ -1,0 +1,64 @@
+body{
+    overflow-x: hidden;
+    background-color: #ecf0f1;
+    margin:0px auto;
+}
+.form{
+    width: 100%;
+    margin: 2rem ;
+}
+.field{
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.labels{
+    display: block;
+    margin-bottom: 2px;
+}
+
+input{
+    width: 50%;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 0.1px solid black;
+    outline: none;
+    box-sizing: border-box;
+}
+
+table{
+    margin-left: 2rem;
+    width: 95%;
+    border: 2px solid #c0392b;
+    padding: 0.5rem;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid #c0392b;
+    padding: 1rem;
+}
+tr:hover{
+    background-color: #ddd;
+}
+th{
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+tbody{
+    overflow:auto;
+    height: 1vh;
+}
+.btnSubmit{
+    width: 50%;
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    outline: none;
+}
+.btnSubmit:hover{
+    background-color: #27ae60;
+}
